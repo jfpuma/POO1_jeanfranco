@@ -1,0 +1,20 @@
+Equipos
+
+-Nombre: Barcelona Fc
+-Origen: Barcelona/España
+-Posicion en la tabla: 1ero
+
+Jugadores
+
+-Nombre: Messi
+-Posicion: Delantero
+-Edad: 31
+
+Arquerias
+
+Altura: 2mts
+Profundidad: 1.5mts
+Ancho: 1.5mts
+
+
+

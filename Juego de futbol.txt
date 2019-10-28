@@ -1,0 +1,27 @@
+Juego de Futbol
+
+Tangibles
+-La pelota
+-Los arbitros
+-Los jugadores
+-Las arquerias
+-La banca
+-Las sillas
+-El publico
+-Comidas
+-Banderines
+-Tarjetas: Tarjeta amarilla y roja del arbitro
+-Entrenadores
+-Uniformes
+-Estadio: Camp nou
+
+
+Intangibles
+-Equipos: Barcelona FC
+-Las lineas del campo: Lineas del area
+-Faltas
+-Alineaciones
+-Tiempo
+-Goles
+-nro de asientos
+-Las reglas
