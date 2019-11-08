@@ -1,0 +1,112 @@
+Un restaurant necesita un software para controlar todos los pedidos que hacen los clientes a los mesoneros, 
+de forma tal que en la cocina esten enterados de lo que deben preparar. Cada comida tiene una cantidad especifica de ingredientes, 
+lo que permite determinar el costo de cada plato y el precio que se debe cobrar por este. El restaurant debe facturar a sus clientes todo lo que consuman, 
+tanto comidas, como bebidas. Al facturar se debe indicar cual mesonero atendio a la mesa para saber cuanta propina debe cobrar al final de la semana. 
+Dado este contexto hipotetico realice las siguientes actividades:
+
+1)Identifique 3 clases de objetos tangibles y 3 clases de objetos intangibles que sean las mas relevantes en este contexto
+Clase de objetos tangibles
+
+-CMesonero
+-CCliente
+-CCocinero
+
+Clase de objetos intangibles
+
+-CFactura
+-CMenu
+-COrden (Ordenes generadas para la cocina)
+
+
+2)Seleccione una clase de las identificadas (la mas relevante). 
+Defina sus atributos, indicando el tipo de dato de cada uno y los metodos mas relevantes
+
+-Clase Factura
+Atributos (Objetos)
+-cliente: Pedro (Nombre del cliente) (caracter)
+
+-Orden: Lo que ordeno el cliente (Caracter)
+	
+
+-Mesa: Mesa #8 (numero de mesa que atendio) (Caracter)
+	
+
+-Nro_de_orden: 1235423 (El numero de la orden que llega a la cocina) (entero)
+	
+
+-Nombre_mesonero: Pedro (Nombre Mesonero) (Caracter)
+
+3) Seleccione una clase de objetos que al menos tenga un atributo que sea un objeto de otra clase. Defina la clase a la que pertenece ese atributo
+En la clase Mesonero y Cocinero
+-Sueldo
+
+Este prodria ser la clase Mesonero
+-CSueldo
+
+4)Defina los atributos y metodos de 2 clases que puedan ser generalizadas por medio de la herencia
+
+Clase Empleado:
+Atributos (Objetos)
+-Nombre: Juan (Nombre del empleado) (Caracter)
+	-Identificar (Metodo)
+
+-Area_Trabajo: Mesonero, Cocinero, cajera, etc.. (Caracter)
+	-Trabajar (Metodo) 
+-Direccion: Urb Patarata (Caracter)
+
+-Sueldo: 350.000Bs (Real) (Monto del sueldo)
+	-Cobrar (Metodo)
+
+-Horiario: (7:45 a 12) (Hora) (Horario de trabajo)
+
+
+-Turno: Mañana, Tarde, Noche (Caracter)
+
+-Horas_trabajadas: 25 (Entero)
+
+5)Defina la clase base, colocando en ella los atributos y metodos comunes de las 2 clases seleccionadas en el objetivo 4. 
+Defina nuevamente estas 2 clases ahora sabiendo que ellas heredan los atributos y metodos de la clase base
+
+Clase Mesonero
+Atributos (Objetos)
+--Nombre: Juan (Nombre del empleado) (Caracter)
+	-Identificar (Metodo)
+
+-Area_Trabajo: Mesonero, Cocinero, cajera, etc.. (Caracter)
+	-Trabajar (Metodo) 
+-Direccion: Urb Patarata (Caracter)
+
+-Sueldo: 350.000Bs (Real) (Monto del sueldo)
+	-Cobrar (Metodo)
+
+-Horiario: (7:45 a 12) (Hora) (Horario de trabajo)
+	-Ser Puntual (Metodo)
+
+-Turno: Mañana, Tarde, Noche (Caracter)
+
+-Horas_trabajadas: 25 (Entero)
+
+-Propina: 100.000Bs (Real)
+
+-Mesa: Mesa #8 (numero de mesa que atendio) (Caracter)
+
+
+Clase Cocinero
+Atributos (Objetos)
+-Nombre: Juan (Nombre del empleado) (Caracter)
+	-Identificar (Metodo)
+
+-Area_Trabajo: Mesonero, Cocinero, cajera, etc.. (Caracter)
+	-Trabajar (Metodo) 
+-Direccion: Urb Patarata (Caracter)
+
+-Sueldo: 350.000Bs (Real) (Monto del sueldo)
+	-Cobrar (Metodo)
+
+-Horiario: (7:45 a 12) (Hora) (Horario de trabajo)
+	-Ser Puntual (Metodo)
+
+-Turno: Mañana, Tarde, Noche (Caracter)
+
+-Horas_trabajadas: 25 (Entero)
+	

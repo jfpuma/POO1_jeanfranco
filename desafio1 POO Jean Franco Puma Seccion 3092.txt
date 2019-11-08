@@ -1,0 +1,92 @@
+Software instituto secundaria
+
+Objetos tangibles
+-Alumno
+	-Nombre: Jean (caracter)
+		-Identificar (Metodo)
+
+	-Edad: 15	(entero)
+	
+	-Curso: 8vo grado	(caracter) (Año que esta cursando) 
+		-Estudiar (Metodo)
+	
+	-Seccion: Seccion "A" (caracter) (Seccion en la que estudia) 
+
+	-Esta_inscrito:  (logico) 
+		-INCRIBIRSE (Metodo)
+
+-Secretaria/o
+	-Nombre: Cristina (caracter)
+	
+
+	-Pagos: 80.000Bs  (real)  (pago de mensualidades)
+		-Registrar pagos de las mensualidades (Metodo)
+
+	-Turno: Mañana, Tarde, noche (caracter)	
+		-Registrar los turnos de los profesores
+
+	-Cupo: Hay cupos para nuevo ingreso? (logico)
+		-Inscribir (Si hay cupo llevar a cabo la inscripcion)
+
+	-Direccion: Apt Monterreal (caracter)
+-Profesores
+	-Nombre: Jose (caracter)
+
+	-Materia: Matematica  (caracter)
+		-Dar clase (Metodo) 
+	
+	-Seccion: Seccion "A" "Seccion a las que da clases" (caracter)
+		-Evaluar la seccion que da clase
+
+	-Notas: 18/20 (entero) "Registro de nota"
+		-Registrar las notas de los alumnos" (Metodo)
+
+	-Direccion: urb patarata (caracter)
+	
+Objetos intangibles
+
+-Horarios
+	-Hora: 7:45 AM - 12 M (Horarios de clase) (Caracter)
+		-Dividir los horarios segun la seccion (Metodo)
+
+	-dia: Lunes, Martes, etc.. (Dias habiles para clases) (Caracter)
+		-Registrar los dias que se daran diferentes materias
+
+	-turno: Mañana, Tarde, Noche	(Caracter)
+		-Manejar los turnos de cada seccion (Metodo)
+	-Materia: Matematica (Caracter)
+
+	-Plan de Evaluacion
+
+-Pago_Mensualidades
+
+	-Metodo de pago: Efectivo,transferencia, etc (caracter)
+
+	
+	-Monto de pago: 50.000Bs (Real)
+		-Cobrar (Metodo)
+
+	-Interes: 2% por no cancelar a tiempo (Caracter)
+		-Aumentar interes por tardanza (Metodo)
+
+	-Pago por adelantado?: Si/No (Logico)
+		-Descontar un % por pagos adelantados (Metodos)
+
+	-Fecha de pago: 13/10/2018 (Fecha)
+
+-Incripcion
+
+	-Nombre: Jose (Alumno a inscribirse) (caracter)
+		-identificar los alumnos inscritos (Metodo)
+
+	-Curso:7mo grado (Curso al que se va a inscribir) (Caracter)
+
+
+	-Cupos disponibles: Hay "x" cupos disponibles para inscripcion (Caracter)
+		-Contar cupos disponibles (Metodo)
+)
+	-Evualuacion: 18pts (caracter) (Evaluacion previa para poder ingresar al instituto)
+		Evaluar si los alumnos estan aptos para cada curso (Metodo)
+
+	-Monto de inscripcion: 20.000 Bs (Real)
+

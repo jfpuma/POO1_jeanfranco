@@ -1,0 +1,55 @@
+Desafio3_POO1
+Una empresa de cable (de television) desea llevar un registro de las suscripciones de todos sus clientes. 
+Tienen varios paquetes que incluyen cada uno una cierta cantidad de canales. Los clientes contratan el servicio y 
+deben pagarlo mensualmente. 
+Cuando el cliente va a la empresa, lo atiende un agente de atencion al cliente que le toma los datos y 
+luego genera una factura
+
+
+1)Identifique todos las clase de objetos que estan involucrados en este contexto.
+
+-CEmpresa
+-CCliente
+-CPaquetes
+-CFactura
+
+2)Defina una clase que contenga atributos primitivos (caracter, real, entero, logico), 
+atributos que sean objetos y atributos que sean una coleccion de objetos de otra clase. 
+Defina previamente la clase de estos objetos (con sus atributos y metodos)
+
+-CCliente
+	-Nombre (caracter)
+		
+	-Cedula o rif (entero)
+
+	-Direccion (caracter)
+		-Cambiar Direccion (Metodo)
+
+	-Telefono (entero)
+		-Cambiar # de tlf (Metodo)
+-CFactura
+	-Cliente (coleccion de objetos de la clase cliente)
+
+	-Monto de pago (real)
+
+	-Fecha (caracter)
+		
+	-Excento de iva? (Logico)
+		-Aumentar precio
+
+	-Numero de factura (entero)
+		-Cambiar el numero de la factura (Metodo)
+-CEmpresa
+	-Nombre de la empresa (caracter)
+
+	-Direccion (caracter)
+
+	-Rif (entero)
+	
+	-Cliente (Coleccion objetos de la clase cliente)
+		-Registrar los datos del cliente (Metodo)
+
+	-CFactura 
+		-Facturar (Metodo)
+
+	-Telefono (entero)
